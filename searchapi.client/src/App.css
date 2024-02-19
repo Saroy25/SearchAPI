@@ -1,0 +1,52 @@
+﻿#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #F2F2F2;
+}
+
+tr:nth-child(odd) {
+    background: #FFF;
+}
+
+th, td {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.country-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .country-table th, .country-table td {
+        padding: 10px;
+        border: 1px solid #ddd;
+    }
+
+    .country-table th {
+        background-color: #f2f2f2;
+        text-align: left;
+    }
+
+    .country-table td {
+        text-align: left;
+    }
